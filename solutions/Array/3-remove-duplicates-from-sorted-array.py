@@ -2,13 +2,13 @@
 //SC : O(1)
 
 class Solution:
-    def removeDuplicates(self, nums: List[int]) -> int:
-        left = 0
-        right = 1
-        while right<len(nums):
-            if nums[left] != nums[right]:
-                left += 1
-                nums[left] = nums[right]
-            right +=1
-        return left +1
+    def moveZeroes(self, nums: List[int]) -> None:
+        """
+        Do not return anything, modify nums in-place instead.
+        """
+        insert_pos = 0
+        for right in range(len(nums)):
+            if nums[right] != 0:
+                nums[insert_pos],nums[right] = nums[right],nums[insert_pos]
+                insert_pos += 1
             
