@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 7/145 problems  
+**Solved:** 8/145 problems  
 **Last Updated:** May 24, 2026
 
 ## Solutions
@@ -16,3 +16,4 @@
 | 49 | Group Anagrams | Medium | [Link](https://leetcode.com/problems/group-anagrams/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/9-group-anagrams.py?raw=true) | May 24, 2026 | Trick is to convert the element string into a ascii array count and then that becomes a common key for the words like eat and tea and there by we convert that list into tuple and then add it as a key and append elements who have matched that key |
 | 268 | Missing Number | Easy | [Link](https://leetcode.com/problems/missing-number/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/10-missing-number.py?raw=true) | May 24, 2026 | simple total sum of n numbers - actual sum will give you the exact number diff missing , or use xor where you calculate xor from 1 to n and xor of nums there by equal cancel out and odd one remains that is your answer |
 | 11 | Container With Most Water | Medium | [Link](https://leetcode.com/problems/container-with-most-water/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/5-container-with-most-water.py?raw=true) | May 24, 2026 | The greeedy approach is where we only move the smaller side as it's useless to our equation of width*min(hl,hr) and there by we solve this by starting our pointers with the widest possible with start and end so that atleast width we have max and get max area at start and there by the min height determines the area max , and we return |
+| 42 | Trapping Rain Water | Hard | [Link](https://leetcode.com/problems/trapping-rain-water/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/6-trapping-rain-water.py?raw=true) | May 24, 2026 | - |
