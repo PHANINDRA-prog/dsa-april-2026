@@ -2,7 +2,7 @@
 
 ## Progress
 **Solved:** 9/145 problems  
-**Last Updated:** May 24, 2026
+**Last Updated:** May 25, 2026
 
 ## Solutions
 
@@ -17,3 +17,4 @@
 | 268 | Missing Number | Easy | [Link](https://leetcode.com/problems/missing-number/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/10-missing-number.py?raw=true) | May 24, 2026 | simple total sum of n numbers - actual sum will give you the exact number diff missing , or use xor where you calculate xor from 1 to n and xor of nums there by equal cancel out and odd one remains that is your answer |
 | 11 | Container With Most Water | Medium | [Link](https://leetcode.com/problems/container-with-most-water/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/5-container-with-most-water.py?raw=true) | May 24, 2026 | The greeedy approach is where we only move the smaller side as it's useless to our equation of width*min(hl,hr) and there by we solve this by starting our pointers with the widest possible with start and end so that atleast width we have max and get max area at start and there by the min height determines the area max , and we return |
 | 42 | Trapping Rain Water | Hard | [Link](https://leetcode.com/problems/trapping-rain-water/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/6-trapping-rain-water.py?raw=true) | May 24, 2026 | Use prefix algo including the current element to get the leftmax and right max and then formula min(leftmax , rightmax) - height[current_elem] |
+| 189 | Rotate Array | Medium | [Link](https://leetcode.com/problems/rotate-array/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/7-rotate-array.py?raw=true) | May 25, 2026 | The trick is to reverse the entire array and then reverse the first half of the array that is 0 to k -1 and then reverse k to n -1 and then finally everything happened in nums place so o(1) space taken |
