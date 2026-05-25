@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 10/145 problems  
+**Solved:** 11/145 problems  
 **Last Updated:** May 25, 2026
 
 ## Solutions
@@ -19,3 +19,4 @@
 | 42 | Trapping Rain Water | Hard | [Link](https://leetcode.com/problems/trapping-rain-water/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/6-trapping-rain-water.py?raw=true) | May 24, 2026 | Use prefix algo including the current element to get the leftmax and right max and then formula min(leftmax , rightmax) - height[current_elem] |
 | 189 | Rotate Array | Medium | [Link](https://leetcode.com/problems/rotate-array/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/7-rotate-array.py?raw=true) | May 25, 2026 | The trick is to reverse the entire array and then reverse the first half of the array that is 0 to k -1 and then reverse k to n -1 and then finally everything happened in nums place so o(1) space taken |
 | 347 | Top K Frequent Elements | Medium | [Link](https://leetcode.com/problems/top-k-frequent-elements/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/11-top-k-frequent-elements.py?raw=true) | May 25, 2026 | heapq.nlargest cuts time from \(O(N \log N)\) to \(O(N \log K)\) by using a size-\(K\) min-heap to keep the smallest winner on top, filtering out losers instantly. |
+| 75 | Sort Colors | Easy | [Link](https://leetcode.com/problems/sort-colors/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/12-sort-colors.py?raw=true) | May 25, 2026 | Very simple dutch approach of three left, right and mid where mid scans and if found 0 swap with left and found 1 no swap and found 2 swap and decrement right and in other top two increment left and mid respectively |
