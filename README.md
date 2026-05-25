@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 12/145 problems  
+**Solved:** 13/145 problems  
 **Last Updated:** May 25, 2026
 
 ## Solutions
@@ -21,3 +21,4 @@
 | 347 | Top K Frequent Elements | Medium | [Link](https://leetcode.com/problems/top-k-frequent-elements/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/11-top-k-frequent-elements.py?raw=true) | May 25, 2026 | heapq.nlargest cuts time from \(O(N \log N)\) to \(O(N \log K)\) by using a size-\(K\) min-heap to keep the smallest winner on top, filtering out losers instantly. |
 | 75 | Sort Colors | Easy | [Link](https://leetcode.com/problems/sort-colors/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/12-sort-colors.py?raw=true) | May 25, 2026 | Very simple dutch approach of three left, right and mid where mid scans and if found 0 swap with left and found 1 no swap and found 2 swap and decrement right and in other top two increment left and mid respectively |
 | 169 | Majority Element | Easy | [Link](https://leetcode.com/problems/majority-element/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/14-majority-element.py?raw=true) | May 25, 2026 | Use heap to get the largest element possible and then return top one simple |
+| 229 | Majority Element II | Medium | [Link](https://leetcode.com/problems/majority-element-ii/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/15-majority-element-ii.py?raw=true) | May 25, 2026 | Same heap approach but adding the condition that count has to be greater than n/3 simple and for n/3 max values that can come is 2 |
