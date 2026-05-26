@@ -2,7 +2,7 @@
 
 ## Progress
 **Solved:** 15/145 problems  
-**Last Updated:** May 25, 2026
+**Last Updated:** May 26, 2026
 
 ## Solutions
 
@@ -23,3 +23,4 @@
 | 169 | Majority Element | Easy | [Link](https://leetcode.com/problems/majority-element/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/14-majority-element.py?raw=true) | May 25, 2026 | Use heap to get the largest element possible and then return top one simple |
 | 229 | Majority Element II | Medium | [Link](https://leetcode.com/problems/majority-element-ii/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/15-majority-element-ii.py?raw=true) | May 25, 2026 | Same heap approach but adding the condition that count has to be greater than n/3 simple and for n/3 max values that can come is 2 |
 | 128 | Longest Consecutive Sequence | Medium | [Link](https://leetcode.com/problems/longest-consecutive-sequence/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/16-longest-consecutive-sequence.py?raw=true) | May 25, 2026 | Use a hash set remove duplicates find a anchor and then check if the num -1 not there that's the anchor start looping to see the longest sequence and then return that sequence |
+| 3 | Longest Substring Without Repeating Characters | Medium | [Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/18-longest-substring-without-repeating-characters.py?raw=true) | May 26, 2026 | Variable Sliding Window Approach where first we check the window validity and then add the element and update the answer  |
