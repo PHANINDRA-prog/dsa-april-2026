@@ -1,8 +1,8 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 16/145 problems  
-**Last Updated:** May 26, 2026
+**Solved:** 17/145 problems  
+**Last Updated:** May 27, 2026
 
 ## Solutions
 
@@ -25,3 +25,4 @@
 | 128 | Longest Consecutive Sequence | Medium | [Link](https://leetcode.com/problems/longest-consecutive-sequence/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/16-longest-consecutive-sequence.py?raw=true) | May 25, 2026 | Use a hash set remove duplicates find a anchor and then check if the num -1 not there that's the anchor start looping to see the longest sequence and then return that sequence |
 | 3 | Longest Substring Without Repeating Characters | Medium | [Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/18-longest-substring-without-repeating-characters.py?raw=true) | May 26, 2026 | Variable Sliding Window Approach where first we check the window validity and then add the element and update the answer  |
 | 53 | Maximum Subarray | Medium | [Link](https://leetcode.com/problems/maximum-subarray/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/19-maximum-subarray.py?raw=true) | May 26, 2026 | Kadane algo because we have to carry the running sum to decide the best one and start a fresh if found a negative baggage |
+| 151 | Reverse Words in a String | Medium | [Link](https://leetcode.com/problems/reverse-words-in-a-string/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/20-reverse-words-in-a-string.py?raw=true) | May 27, 2026 | Simple strings approach |
