@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 20/145 problems  
+**Solved:** 22/145 problems  
 **Last Updated:** May 28, 2026
 
 ## Solutions
@@ -30,3 +30,4 @@
 | 392 | Is Subsequence | Easy | [Link](https://leetcode.com/problems/is-subsequence/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/22-is-subsequence.py?raw=true) | May 27, 2026 | Very tricky algo revisit this |
 | 1679 | Max Number of K-Sum Pairs | Medium | [Link](https://leetcode.com/problems/max-number-of-k-sum-pairs/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/23-max-number-of-k-sum-pairs.py?raw=true) | May 28, 2026 | notes is very simple approach we have to take is that one it two sum sorted approach and one is hashmap approach to increase space but reduce time  |
 | 15 | 3Sum | Medium | [Link](https://leetcode.com/problems/3sum/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/24-3sum.py?raw=true) | May 28, 2026 | First sort the array fix one number and then keep left and right and then loop through and find out the pair and then go the next number and find out , so this becomes two sorted pointer for the rest of the approach |
+| 567 | Permutation in String | Medium | [Link](https://leetcode.com/problems/permutation-in-string/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/25-permutation-in-string.py?raw=true) | May 28, 2026 | Fixed Sliding Window approach with hashmap or you can use the frequency array for the char using ord getting ascii value |
