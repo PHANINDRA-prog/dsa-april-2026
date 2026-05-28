@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 23/145 problems  
+**Solved:** 24/145 problems  
 **Last Updated:** May 28, 2026
 
 ## Solutions
@@ -32,3 +32,4 @@
 | 15 | 3Sum | Medium | [Link](https://leetcode.com/problems/3sum/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/24-3sum.py?raw=true) | May 28, 2026 | First sort the array fix one number and then keep left and right and then loop through and find out the pair and then go the next number and find out , so this becomes two sorted pointer for the rest of the approach |
 | 567 | Permutation in String | Medium | [Link](https://leetcode.com/problems/permutation-in-string/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/25-permutation-in-string.py?raw=true) | May 28, 2026 | Fixed Sliding Window approach with hashmap or you can use the frequency array for the char using ord getting ascii value |
 | 155 | Min Stack | Medium | [Link](https://leetcode.com/problems/min-stack/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/26-min-stack.py?raw=true) | May 28, 2026 | This is stack where all operations O(1) okay over here we maintain a min stack and for each push we push the min so we know the min at each stage |
+| 239 | Sliding Window Maximum | Hard | [Link](https://leetcode.com/problems/sliding-window-maximum/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/27-sliding-window-maximum.py?raw=true) | May 28, 2026 | Use Deque Approach to solve this problem as standard max will be bad |
