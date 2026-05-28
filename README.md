@@ -1,8 +1,8 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 19/145 problems  
-**Last Updated:** May 27, 2026
+**Solved:** 20/145 problems  
+**Last Updated:** May 28, 2026
 
 ## Solutions
 
@@ -28,3 +28,4 @@
 | 151 | Reverse Words in a String | Medium | [Link](https://leetcode.com/problems/reverse-words-in-a-string/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/20-reverse-words-in-a-string.py?raw=true) | May 27, 2026 | Simple strings approach |
 | 443 | String Compression | Medium | [Link](https://leetcode.com/problems/string-compression/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/21-string-compression.py?raw=true) | May 27, 2026 | Two pointer approach start from left and keep moving right when right not equal to left append to string the count and left char and then move left = right and then proceed and for final group calculate the count and append again but don't append count if count is 1 keep if check |
 | 392 | Is Subsequence | Easy | [Link](https://leetcode.com/problems/is-subsequence/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/22-is-subsequence.py?raw=true) | May 27, 2026 | Very tricky algo revisit this |
+| 1679 | Max Number of K-Sum Pairs | Medium | [Link](https://leetcode.com/problems/max-number-of-k-sum-pairs/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/23-max-number-of-k-sum-pairs.py?raw=true) | May 28, 2026 | - |
