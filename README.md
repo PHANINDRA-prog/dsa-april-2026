@@ -2,7 +2,7 @@
 
 ## Progress
 **Solved:** 25/145 problems  
-**Last Updated:** May 28, 2026
+**Last Updated:** May 29, 2026
 
 ## Solutions
 
@@ -33,4 +33,4 @@
 | 567 | Permutation in String | Medium | [Link](https://leetcode.com/problems/permutation-in-string/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/25-permutation-in-string.py?raw=true) | May 28, 2026 | Fixed Sliding Window approach with hashmap or you can use the frequency array for the char using ord getting ascii value |
 | 155 | Min Stack | Medium | [Link](https://leetcode.com/problems/min-stack/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/26-min-stack.py?raw=true) | May 28, 2026 | This is stack where all operations O(1) okay over here we maintain a min stack and for each push we push the min so we know the min at each stage |
 | 239 | Sliding Window Maximum | Hard | [Link](https://leetcode.com/problems/sliding-window-maximum/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/27-sliding-window-maximum.py?raw=true) | May 28, 2026 | Use Deque Approach to solve this problem as standard max will be bad |
-| 76 | Minimum Window Substring | Hard | [Link](https://leetcode.com/problems/minimum-window-substring/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/28-minimum-window-substring.py?raw=true) | May 28, 2026 | The best sliding window min problem where we maintain have and need hashmap  |
+| 739 | Daily Temperatures | Medium | [Link](https://leetcode.com/problems/daily-temperatures/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/29-daily-temperatures.py?raw=true) | May 29, 2026 | Use monotonic decreasing stack where the pop element will be of pastday so we take that index and find the day diff to reach the current day and append it to answer of pastday index place  |
