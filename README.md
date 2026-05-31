@@ -1,8 +1,8 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 25/145 problems  
-**Last Updated:** May 29, 2026
+**Solved:** 26/145 problems  
+**Last Updated:** May 31, 2026
 
 ## Solutions
 
@@ -34,3 +34,4 @@
 | 155 | Min Stack | Medium | [Link](https://leetcode.com/problems/min-stack/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/26-min-stack.py?raw=true) | May 28, 2026 | This is stack where all operations O(1) okay over here we maintain a min stack and for each push we push the min so we know the min at each stage |
 | 239 | Sliding Window Maximum | Hard | [Link](https://leetcode.com/problems/sliding-window-maximum/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/27-sliding-window-maximum.py?raw=true) | May 28, 2026 | Use Deque Approach to solve this problem as standard max will be bad |
 | 739 | Daily Temperatures | Medium | [Link](https://leetcode.com/problems/daily-temperatures/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/29-daily-temperatures.py?raw=true) | May 29, 2026 | Use monotonic decreasing stack where the pop element will be of pastday so we take that index and find the day diff to reach the current day and append it to answer of pastday index place  |
+| 0 | All Sorting Algorithms | Medium | - | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Sorting/46-all-sorting-algorithms.py?raw=true) | May 31, 2026 | - |
