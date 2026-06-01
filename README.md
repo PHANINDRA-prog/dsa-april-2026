@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 28/145 problems  
+**Solved:** 29/145 problems  
 **Last Updated:** Jun 1, 2026
 
 ## Solutions
@@ -37,3 +37,4 @@
 | 229 | Majority Element II | Medium | [Link](https://leetcode.com/problems/majority-element-ii/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/15-majority-element-ii.py?raw=true) | May 31, 2026 | Boyre more algorithmn which does this in constant space and linear time  |
 | 76 | Minimum Window Substring | Hard | [Link](https://leetcode.com/problems/minimum-window-substring/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/28-minimum-window-substring.py?raw=true) | Jun 1, 2026 | Minimum Window Sliding problem where we maintain a formed when requirement matches and then formed == length of target then simply we move left in that while loop and then if left window count drops we decrease the formed. |
 | 853 | Car Fleet | Medium | [Link](https://leetcode.com/problems/car-fleet/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/30-car-fleet.py?raw=true) | Jun 1, 2026 | first calculate time by target-pos / speed and then sort the the pair of position , time based on descending as slower position car has to catch up with the faster position and cannot overtake and then time > slower one new fleet |
+| 14 | Longest Common Prefix | Easy | [Link](https://leetcode.com/problems/longest-common-prefix/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/17-longest-common-prefix.py?raw=true) | Jun 1, 2026 | - |
