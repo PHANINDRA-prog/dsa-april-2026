@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 31/145 problems  
+**Solved:** 32/145 problems  
 **Last Updated:** Jun 2, 2026
 
 ## Solutions
@@ -40,3 +40,4 @@
 | 14 | Longest Common Prefix | Easy | [Link](https://leetcode.com/problems/longest-common-prefix/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/17-longest-common-prefix.py?raw=true) | Jun 1, 2026 | - |
 | 84 | Largest Rectangle in Histogram | Hard | [Link](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/31-largest-rectangle-in-histogram.py?raw=true) | Jun 1, 2026 | The brute force approach is to calculate the nse and pse and area is just h * (nse - pse - 1) simple but in one pass apply pse algo only but for the current popped one the incoming element is the nse and the now -1 element of stack is pse and there you go area and once if stack not empty meaning the nse is len of arr and pse if previous one there it becomes or else -1 . Crazy algo |
 | 54 | Spiral Matrix | Medium | [Link](https://leetcode.com/problems/spiral-matrix/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/13-spiral-matrix.py?raw=true) | Jun 2, 2026 | Four pointers |
+| 282 | Expression Add Operators | Hard | [Link](https://leetcode.com/problems/expression-add-operators/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/32-expression-add-operators.py?raw=true) | Jun 2, 2026 | - |
