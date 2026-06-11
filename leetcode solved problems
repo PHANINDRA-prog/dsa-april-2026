@@ -1,0 +1,106 @@
+S.No	Problem ID	Title	Difficulty	Topics	Acceptance Rate	Paid Only	URL	Last Accepted At	Num Submitted
+1	443	String Compression	Medium	Two Pointers, String	60.09350793126058	FALSE	https://leetcode.com/problems/string-compression/	2026-06-11 10:13:12 UTC	2
+2	438	Find All Anagrams in a String	Medium	Hash Table, String, Sliding Window	53.87413347449523	FALSE	https://leetcode.com/problems/find-all-anagrams-in-a-string/	2026-06-11 09:43:08 UTC	4
+3	435	Non-overlapping Intervals	Medium	Array, Dynamic Programming, Greedy, Sorting	57.191778556418235	FALSE	https://leetcode.com/problems/non-overlapping-intervals/	2026-06-11 09:21:09 UTC	5
+4	424	Longest Repeating Character Replacement	Medium	Hash Table, String, Sliding Window	59.79782785954435	FALSE	https://leetcode.com/problems/longest-repeating-character-replacement/	2026-06-11 09:14:41 UTC	4
+5	402	Remove K Digits	Medium	String, Stack, Greedy, Monotonic Stack	36.97748657486811	FALSE	https://leetcode.com/problems/remove-k-digits/	2026-06-11 02:46:57 UTC	3
+6	392	Is Subsequence	Easy	Two Pointers, String, Dynamic Programming	49.072365723657235	FALSE	https://leetcode.com/problems/is-subsequence/	2026-06-11 01:54:01 UTC	5
+7	347	Top K Frequent Elements	Medium	Array, Hash Table, Divide and Conquer, Sorting, Heap (Priority Queue), Bucket Sort, Counting, Quickselect	66.57832818	FALSE	https://leetcode.com/problems/top-k-frequent-elements/	2026-06-10 16:36:06 UTC	9
+8	303	Range Sum Query - Immutable	Easy	Array, Design, Prefix Sum	72.35303742033346	FALSE	https://leetcode.com/problems/range-sum-query-immutable/	2026-06-10 16:20:10 UTC	3
+9	283	Move Zeroes	Easy	Array, Two Pointers	63.91583829096314	FALSE	https://leetcode.com/problems/move-zeroes/	2026-06-10 16:12:05 UTC	12
+10	282	Expression Add Operators	Hard	Math, String, Backtracking	43.26627952411108	FALSE	https://leetcode.com/problems/expression-add-operators/	2026-06-10 16:09:45 UTC	6
+11	268	Missing Number	Easy	Array, Hash Table, Math, Binary Search, Bit Manipulation, Sorting	72.10214932	FALSE	https://leetcode.com/problems/missing-number/	2026-06-10 15:43:14 UTC	3
+12	239	Sliding Window Maximum	Hard	Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue	48.82267503316851	FALSE	https://leetcode.com/problems/sliding-window-maximum/	2026-06-10 15:30:53 UTC	10
+13	238	Product of Array Except Self	Medium	Array, Prefix Sum	68.95711611583033	FALSE	https://leetcode.com/problems/product-of-array-except-self/	2026-06-10 15:21:17 UTC	5
+14	229	Majority Element II	Medium	Array, Hash Table, Sorting, Counting	56.278059723208486	FALSE	https://leetcode.com/problems/majority-element-ii/	2026-06-10 11:59:33 UTC	6
+15	219	Contains Duplicate II	Easy	Array, Hash Table, Sliding Window	51.368901866627645	FALSE	https://leetcode.com/problems/contains-duplicate-ii/	2026-06-10 03:26:26 UTC	3
+16	209	Minimum Size Subarray Sum	Medium	Array, Binary Search, Sliding Window, Prefix Sum	51.84891722631072	FALSE	https://leetcode.com/problems/minimum-size-subarray-sum/	2026-06-10 03:18:43 UTC	3
+17	202	Happy Number	Easy	Hash Table, Math, Two Pointers	59.74460707895381	FALSE	https://leetcode.com/problems/happy-number/	2026-06-10 03:01:49 UTC	2
+18	169	Majority Element	Easy	Array, Hash Table, Divide and Conquer, Sorting, Counting	66.33558868	FALSE	https://leetcode.com/problems/majority-element/	2026-06-10 02:37:24 UTC	8
+19	152	Maximum Product Subarray	Medium	Array, Dynamic Programming	36.49120972060538	FALSE	https://leetcode.com/problems/maximum-product-subarray/	2026-06-10 02:28:01 UTC	6
+20	151	Reverse Words in a String	Medium	Two Pointers, String	56.614774046257224	FALSE	https://leetcode.com/problems/reverse-words-in-a-string/	2026-06-10 02:02:55 UTC	4
+21	141	Linked List Cycle	Easy	Hash Table, Linked List, Two Pointers	54.43981296798589	FALSE	https://leetcode.com/problems/linked-list-cycle/	2026-06-10 01:55:09 UTC	2
+22	135	Candy	Hard	Array, Greedy	48.56046100294059	FALSE	https://leetcode.com/problems/candy/	2026-06-09 15:53:00 UTC	3
+23	134	Gas Station	Medium	Array, Greedy	48.09025896440804	FALSE	https://leetcode.com/problems/gas-station/	2026-06-09 14:03:41 UTC	4
+24	128	Longest Consecutive Sequence	Medium	Array, Hash Table, Union-Find	47.12396811234764	FALSE	https://leetcode.com/problems/longest-consecutive-sequence/	2026-06-09 13:56:41 UTC	10
+25	125	Valid Palindrome	Easy	Two Pointers, String	53.46093411173727	FALSE	https://leetcode.com/problems/valid-palindrome/	2026-06-09 13:38:34 UTC	5
+26	901	Online Stock Span	Medium	Stack, Design, Monotonic Stack, Data Stream	69.16462684002775	FALSE	https://leetcode.com/problems/online-stock-span/	2026-06-09 13:30:59 UTC	1
+27	907	Sum of Subarray Minimums	Medium	Array, Dynamic Programming, Stack, Monotonic Stack	38.64529978466137	FALSE	https://leetcode.com/problems/sum-of-subarray-minimums/	2026-06-09 13:08:41 UTC	1
+28	862	Shortest Subarray with Sum at Least K	Hard	Array, Binary Search, Queue, Sliding Window, Heap (Priority Queue), Prefix Sum, Monotonic Queue	32.82380252097625	FALSE	https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/	2026-06-09 12:16:00 UTC	4
+29	1438	Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit	Medium	Array, Queue, Sliding Window, Heap (Priority Queue), Ordered Set, Monotonic Queue	57.750666707537626	FALSE	https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/	2026-06-09 05:39:21 UTC	2
+30	53	Maximum Subarray	Medium	Array, Divide and Conquer, Dynamic Programming	53.401921388220394	FALSE	https://leetcode.com/problems/maximum-subarray/	2026-06-09 04:55:27 UTC	13
+31	84	Largest Rectangle in Histogram	Hard	Array, Stack, Monotonic Stack	50.04356939530316	FALSE	https://leetcode.com/problems/largest-rectangle-in-histogram/	2026-06-09 02:10:35 UTC	7
+32	1475	Final Prices With a Special Discount in a Shop	Easy	Array, Stack, Monotonic Stack	84.16911647862705	FALSE	https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/	2026-06-09 01:40:08 UTC	2
+33	503	Next Greater Element II	Medium	Array, Stack, Monotonic Stack	68.48423276781378	FALSE	https://leetcode.com/problems/next-greater-element-ii/	2026-06-09 01:19:25 UTC	2
+34	496	Next Greater Element I	Easy	Array, Hash Table, Stack, Monotonic Stack	76.2456757	FALSE	https://leetcode.com/problems/next-greater-element-i/	2026-06-09 01:13:48 UTC	2
+35	739	Daily Temperatures	Medium	Array, Stack, Monotonic Stack	68.75396635206454	FALSE	https://leetcode.com/problems/daily-temperatures/	2026-06-09 00:54:05 UTC	3
+36	121	Best Time to Buy and Sell Stock	Easy	Array, Dynamic Programming	56.88629726893446	FALSE	https://leetcode.com/problems/best-time-to-buy-and-sell-stock/	2026-06-08 16:37:59 UTC	4
+37	88	Merge Sorted Array	Easy	Array, Two Pointers, Sorting	54.986549073755995	FALSE	https://leetcode.com/problems/merge-sorted-array/	2026-06-08 16:16:34 UTC	2
+38	216	Combination Sum III	Medium	Array, Backtracking	73.32292438785451	FALSE	https://leetcode.com/problems/combination-sum-iii/	2026-06-08 15:39:12 UTC	1
+39	40	Combination Sum II	Medium	Array, Backtracking	59.546802049952596	FALSE	https://leetcode.com/problems/combination-sum-ii/	2026-06-08 15:29:34 UTC	1
+40	39	Combination Sum	Medium	Array, Backtracking	76.62130389443026	FALSE	https://leetcode.com/problems/combination-sum/	2026-06-08 15:16:00 UTC	3
+41	90	Subsets II	Medium	Array, Backtracking, Bit Manipulation	61.38941124716597	FALSE	https://leetcode.com/problems/subsets-ii/	2026-06-08 14:48:41 UTC	1
+42	78	Subsets	Medium	Array, Backtracking, Bit Manipulation	82.41166942674684	FALSE	https://leetcode.com/problems/subsets/	2026-06-08 14:39:04 UTC	3
+43	76	Minimum Window Substring	Hard	Hash Table, String, Sliding Window	47.681985874496675	FALSE	https://leetcode.com/problems/minimum-window-substring/	2026-06-08 10:11:37 UTC	12
+44	80	Remove Duplicates from Sorted Array II	Medium	Array, Two Pointers	64.79047283648953	FALSE	https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/	2026-06-08 09:46:44 UTC	6
+45	75	Sort Colors	Medium	Array, Two Pointers, Sorting	69.76410456918943	FALSE	https://leetcode.com/problems/sort-colors/	2026-06-08 02:34:55 UTC	7
+46	49	Group Anagrams	Medium	Array, Hash Table, String, Sorting	72.70911908118462	FALSE	https://leetcode.com/problems/group-anagrams/	2026-06-08 01:42:30 UTC	7
+47	46	Permutations	Medium	Array, Backtracking	81.98376384923237	FALSE	https://leetcode.com/problems/permutations/	2026-06-07 16:19:59 UTC	2
+48	45	Jump Game II	Medium	Array, Dynamic Programming, Greedy	42.96376709786925	FALSE	https://leetcode.com/problems/jump-game-ii/	2026-06-07 15:59:08 UTC	8
+49	42	Trapping Rain Water	Hard	Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack	67.48837559059687	FALSE	https://leetcode.com/problems/trapping-rain-water/	2026-06-07 15:38:47 UTC	10
+50	27	Remove Element	Easy	Array, Two Pointers	61.88564605968473	FALSE	https://leetcode.com/problems/remove-element/	2026-06-07 13:08:02 UTC	2
+51	26	Remove Duplicates from Sorted Array	Easy	Array, Two Pointers	62.95623972315878	FALSE	https://leetcode.com/problems/remove-duplicates-from-sorted-array/	2026-06-07 13:02:59 UTC	4
+52	22	Generate Parentheses	Medium	String, Dynamic Programming, Backtracking	78.73349022956265	FALSE	https://leetcode.com/problems/generate-parentheses/	2026-06-07 12:18:23 UTC	3
+53	15	3Sum	Medium	Array, Two Pointers, Sorting	39.196951182498175	FALSE	https://leetcode.com/problems/3sum/	2026-06-07 11:55:58 UTC	6
+54	14	Longest Common Prefix	Easy	Array, String, Trie	47.68396789742062	FALSE	https://leetcode.com/problems/longest-common-prefix/	2026-06-07 11:35:40 UTC	7
+55	11	Container With Most Water	Medium	Array, Two Pointers, Greedy	60.14118359982922	FALSE	https://leetcode.com/problems/container-with-most-water/	2026-06-07 09:27:40 UTC	10
+56	5	Longest Palindromic Substring	Medium	Two Pointers, String, Dynamic Programming	37.94380154947339	FALSE	https://leetcode.com/problems/longest-palindromic-substring/	2026-06-07 09:19:56 UTC	2
+57	3	Longest Substring Without Repeating Characters	Medium	Hash Table, String, Sliding Window	39.18991554111402	FALSE	https://leetcode.com/problems/longest-substring-without-repeating-characters/	2026-06-07 08:47:29 UTC	7
+58	1	Two Sum	Easy	Array, Hash Table	57.60144487259217	FALSE	https://leetcode.com/problems/two-sum/	2026-06-07 08:41:13 UTC	3
+59	933	Number of Recent Calls	Easy	Design, Queue, Data Stream	78.55154585	FALSE	https://leetcode.com/problems/number-of-recent-calls/	2026-06-06 09:19:31 UTC	1
+60	763	Partition Labels	Medium	Hash Table, Two Pointers, String, Greedy	81.90356855537938	FALSE	https://leetcode.com/problems/partition-labels/	2026-06-05 04:28:03 UTC	5
+61	871	Minimum Number of Refueling Stops	Hard	Array, Dynamic Programming, Greedy, Heap (Priority Queue)	41.526151031458944	FALSE	https://leetcode.com/problems/minimum-number-of-refueling-stops/	2026-06-05 02:14:36 UTC	3
+62	1326	Minimum Number of Taps to Open to Water a Garden	Hard	Array, Dynamic Programming, Greedy	51.00906089057232	FALSE	https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/	2026-06-04 16:25:14 UTC	1
+63	1024	Video Stitching	Medium	Array, Dynamic Programming, Greedy	52.732153952566854	FALSE	https://leetcode.com/problems/video-stitching/	2026-06-04 16:14:46 UTC	1
+64	646	Maximum Length of Pair Chain	Medium	Array, Dynamic Programming, Greedy, Sorting	61.84882612368913	FALSE	https://leetcode.com/problems/maximum-length-of-pair-chain/	2026-06-04 15:02:05 UTC	1
+65	452	Minimum Number of Arrows to Burst Balloons	Medium	Array, Greedy, Sorting	61.51388617725567	FALSE	https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/	2026-06-04 14:51:29 UTC	2
+66	1338	Reduce Array Size to The Half	Medium	Array, Hash Table, Greedy, Sorting, Heap (Priority Queue)	69.39960372020172	FALSE	https://leetcode.com/problems/reduce-array-size-to-the-half/	2026-06-04 09:21:15 UTC	1
+67	1710	Maximum Units on a Truck	Easy	Array, Greedy, Sorting	74.91589288117346	FALSE	https://leetcode.com/problems/maximum-units-on-a-truck/	2026-06-04 08:48:28 UTC	1
+68	948	Bag of Tokens	Medium	Array, Two Pointers, Greedy, Sorting	59.65973618506817	FALSE	https://leetcode.com/problems/bag-of-tokens/	2026-06-04 03:14:11 UTC	3
+69	881	Boats to Save People	Medium	Array, Two Pointers, Greedy, Sorting	61.87365602	FALSE	https://leetcode.com/problems/boats-to-save-people/	2026-06-04 02:50:08 UTC	4
+70	455	Assign Cookies	Easy	Array, Two Pointers, Greedy, Sorting	55.04243414777852	FALSE	https://leetcode.com/problems/assign-cookies/	2026-06-04 02:37:27 UTC	3
+71	845	Longest Mountain in Array	Medium	Array, Two Pointers, Dynamic Programming, Enumeration	42.18437389894278	FALSE	https://leetcode.com/problems/longest-mountain-in-array/	2026-06-03 14:10:55 UTC	1
+72	674	Longest Continuous Increasing Subsequence	Easy	Array	52.12178530728292	FALSE	https://leetcode.com/problems/longest-continuous-increasing-subsequence/	2026-06-03 13:58:33 UTC	1
+73	605	Can Place Flowers	Easy	Array, Greedy	29.158748850440215	FALSE	https://leetcode.com/problems/can-place-flowers/	2026-06-03 11:44:34 UTC	2
+74	1007	Minimum Domino Rotations For Equal Row	Medium	Array, Greedy	56.49230834301142	FALSE	https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/	2026-06-03 10:36:55 UTC	1
+75	54	Spiral Matrix	Medium	Array, Matrix, Simulation	56.93820684213002	FALSE	https://leetcode.com/problems/spiral-matrix/	2026-06-02 02:39:54 UTC	4
+76	853	Car Fleet	Medium	Array, Stack, Sorting, Monotonic Stack	55.19751542631468	FALSE	https://leetcode.com/problems/car-fleet/	2026-06-01 03:43:04 UTC	2
+77	155	Min Stack	Medium	Stack, Design	58.235332769479086	FALSE	https://leetcode.com/problems/min-stack/	2026-05-28 13:35:27 UTC	1
+78	567	Permutation in String	Medium	Hash Table, Two Pointers, String, Sliding Window	48.99950104369579	FALSE	https://leetcode.com/problems/permutation-in-string/	2026-05-28 12:15:45 UTC	4
+79	1679	Max Number of K-Sum Pairs	Medium	Array, Hash Table, Two Pointers, Sorting	57.092574644947256	FALSE	https://leetcode.com/problems/max-number-of-k-sum-pairs/	2026-05-28 11:24:42 UTC	4
+80	189	Rotate Array	Medium	Array, Math, Two Pointers	45.010556702309536	FALSE	https://leetcode.com/problems/rotate-array/	2026-05-25 14:12:45 UTC	5
+81	767	Reorganize String	Medium	Hash Table, String, Greedy, Sorting, Heap (Priority Queue), Counting	57.16101069	FALSE	https://leetcode.com/problems/reorganize-string/	2026-05-25 09:26:30 UTC	1
+82	844	Backspace String Compare	Easy	Two Pointers, String, Stack, Simulation	49.93870234552569	FALSE	https://leetcode.com/problems/backspace-string-compare/	2026-05-24 14:43:40 UTC	2
+83	16	3Sum Closest	Medium	Array, Two Pointers, Sorting	48.664207436506075	FALSE	https://leetcode.com/problems/3sum-closest/	2026-05-24 12:40:07 UTC	2
+84	611	Valid Triangle Number	Medium	Array, Two Pointers, Binary Search, Greedy, Sorting	56.93017778044277	FALSE	https://leetcode.com/problems/valid-triangle-number/	2026-05-24 11:43:18 UTC	2
+85	986	Interval List Intersections	Medium	Array, Two Pointers, Sweep Line	73.04476878620036	FALSE	https://leetcode.com/problems/interval-list-intersections/	2026-05-24 11:23:37 UTC	1
+86	977	Squares of a Sorted Array	Easy	Array, Two Pointers, Sorting	73.80104209947233	FALSE	https://leetcode.com/problems/squares-of-a-sorted-array/	2026-05-24 10:06:15 UTC	5
+87	167	Two Sum II - Input Array Is Sorted	Medium	Array, Two Pointers, Binary Search	65.19425115074978	FALSE	https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/	2026-05-24 09:56:33 UTC	7
+88	3043	Find the Length of the Longest Common Prefix	Medium	Array, Hash Table, String, Trie	62.24150121771922	FALSE	https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/	2026-05-21 03:30:23 UTC	3
+89	876	Middle of the Linked List	Easy	Linked List, Two Pointers	81.93137314389305	FALSE	https://leetcode.com/problems/middle-of-the-linked-list/	2026-05-20 11:43:24 UTC	1
+90	2657	Find the Prefix Common Array of Two Arrays	Medium	Array, Hash Table, Bit Manipulation	88.31642731235058	FALSE	https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/	2026-05-20 09:08:17 UTC	1
+91	2540	Minimum Common Value	Easy	Array, Hash Table, Two Pointers, Binary Search	60.82582047511574	FALSE	https://leetcode.com/problems/minimum-common-value/	2026-05-19 08:15:03 UTC	2
+92	1306	Jump Game III	Medium	Array, Depth-First Search, Breadth-First Search	70.28624241293201	FALSE	https://leetcode.com/problems/jump-game-iii/	2026-05-17 16:03:11 UTC	1
+93	904	Fruit Into Baskets	Medium	Array, Hash Table, Sliding Window	51.30453168875727	FALSE	https://leetcode.com/problems/fruit-into-baskets/	2026-05-16 15:26:33 UTC	3
+94	1456	Maximum Number of Vowels in a Substring of Given Length	Medium	String, Sliding Window	62.057661529017125	FALSE	https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/	2026-05-16 11:42:36 UTC	2
+95	1652	Defuse the Bomb	Easy	Array, Sliding Window	79.33680822027218	FALSE	https://leetcode.com/problems/defuse-the-bomb/	2026-05-16 11:05:21 UTC	2
+96	643	Maximum Average Subarray I	Easy	Array, Sliding Window	47.95031608422982	FALSE	https://leetcode.com/problems/maximum-average-subarray-i/	2026-05-16 09:55:48 UTC	6
+97	525	Contiguous Array	Medium	Array, Hash Table, Prefix Sum	51.470257011566154	FALSE	https://leetcode.com/problems/contiguous-array/	2026-05-15 13:45:51 UTC	1
+98	304	Range Sum Query 2D - Immutable	Medium	Array, Design, Matrix, Prefix Sum	58.39219526678223	FALSE	https://leetcode.com/problems/range-sum-query-2d-immutable/	2026-05-15 13:15:22 UTC	1
+99	1732	Find the Highest Altitude	Easy	Array, Prefix Sum	83.89697567084119	FALSE	https://leetcode.com/problems/find-the-highest-altitude/	2026-05-15 11:40:01 UTC	4
+100	1493	Longest Subarray of 1's After Deleting One Element	Medium	Array, Dynamic Programming, Sliding Window	71.24509656	FALSE	https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/	2026-05-15 10:08:53 UTC	2
+101	523	Continuous Subarray Sum	Medium	Array, Hash Table, Math, Prefix Sum	31.40628678055976	FALSE	https://leetcode.com/problems/continuous-subarray-sum/	2026-05-14 02:36:09 UTC	1
+102	560	Subarray Sum Equals K	Medium	Array, Hash Table, Prefix Sum	47.44965968351638	FALSE	https://leetcode.com/problems/subarray-sum-equals-k/	2026-05-14 02:13:38 UTC	2
+103	724	Find Pivot Index	Easy	Array, Prefix Sum	62.852272145438526	FALSE	https://leetcode.com/problems/find-pivot-index/	2026-05-14 01:50:16 UTC	1
+104	1480	Running Sum of 1d Array	Easy	Array, Prefix Sum	86.96819605158912	FALSE	https://leetcode.com/problems/running-sum-of-1d-array/	2026-05-14 01:47:05 UTC	1
+105	1004	Max Consecutive Ones III	Medium	Array, Binary Search, Sliding Window, Prefix Sum	67.79292144	FALSE	https://leetcode.com/problems/max-consecutive-ones-iii/	2026-05-13 16:24:21 UTC	1
