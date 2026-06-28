@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 35/145 problems  
+**Solved:** 36/145 problems  
 **Last Updated:** Jun 28, 2026
 
 ## Solutions
@@ -44,3 +44,4 @@
 | 206 | Reverse Linked List | Easy | [Link](https://leetcode.com/problems/reverse-linked-list/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Linked%20List/35-reverse-linked-list.py?raw=true) | Jun 28, 2026 | Three pointer approach prev will point to None meaning past and the curr will move forward and next secures future and then curr next pointer is pointing to prev and we move on |
 | 21 | Merge Two Sorted Lists | Easy | [Link](https://leetcode.com/problems/merge-two-sorted-lists/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Linked%20List/36-merge-two-sorted-lists.py?raw=true) | Jun 28, 2026 | Simple merge sort algo |
 | 143 | Reorder List | Medium | [Link](https://leetcode.com/problems/reorder-list/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Linked%20List/37-reorder-list.py?raw=true) | Jun 28, 2026 | First find the first mid node and then reverse the second half and then connect alternatively and loop untill the second half pointer is done |
+| 141 | Linked List Cycle | Easy | [Link](https://leetcode.com/problems/linked-list-cycle/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Linked%20List/38-linked-list-cycle.py?raw=true) | Jun 28, 2026 | Brute Force Approach is where you do the hashmap or hashset where you store the address and not the value as value can be many and that might not denote a cycle and rather we should store the address that denotes the cycle. Now in optimzied fast and slow moved slow 1 step and fast 2 step if cycle fast catches slow and then we return |
