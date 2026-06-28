@@ -2,7 +2,7 @@
 
 ## Progress
 **Solved:** 33/145 problems  
-**Last Updated:** Jun 7, 2026
+**Last Updated:** Jun 28, 2026
 
 ## Solutions
 
@@ -41,3 +41,4 @@
 | 282 | Expression Add Operators | Hard | [Link](https://leetcode.com/problems/expression-add-operators/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/32-expression-add-operators.py?raw=true) | Jun 2, 2026 | This is pure backtracking partition learn it crazy |
 | 14 | Longest Common Prefix | Easy | [Link](https://leetcode.com/problems/longest-common-prefix/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/17-longest-common-prefix.py?raw=true) | Jun 7, 2026 | This is the optimized solution where instead of vertical scan what we do is we sort and then we compare the first and lastword and find the longest string . |
 | 42 | Trapping Rain Water | Hard | [Link](https://leetcode.com/problems/trapping-rain-water/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Array/6-trapping-rain-water.py?raw=true) | Jun 7, 2026 | You can use both prefix and suffix to calculate the answer but that's 3n rather use two pointer approach where left and right track the max and when then answer is calculated |
+| 206 | Reverse Linked List | Easy | [Link](https://leetcode.com/problems/reverse-linked-list/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Linked%20List/35-reverse-linked-list.py?raw=true) | Jun 28, 2026 | Three pointer approach prev will point to None meaning past and the curr will move forward and next secures future and then curr next pointer is pointing to prev and we move on |
