@@ -1,8 +1,8 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 40/145 problems  
-**Last Updated:** Jun 28, 2026
+**Solved:** 41/145 problems  
+**Last Updated:** Jun 29, 2026
 
 ## Solutions
 
@@ -49,3 +49,4 @@
 | 287 | Find the Duplicate Number | Medium | [Link](https://leetcode.com/problems/find-the-duplicate-number/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Linked%20List/40-find-the-duplicate-number.py?raw=true) | Jun 28, 2026 | When the problem says 1 to n array meaning we have to use the numbers as the index nodes so we again apply same slow and fast pointer approach and when they meet we reset slow and start moving them one step and once they meet that was the start of the cycle we return the node address |
 | 83 | Remove Duplicates from Sorted List | Easy | [Link](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Linked%20List/42-remove-duplicates-from-sorted-list.py?raw=true) | Jun 28, 2026 | simple optimized approach where if the curr value is equal to curr next value meaning next node then we make our curr pointer point to the next next node , and once it's not equal then we move our curr to the new value  which was different |
 | 160 | Intersection of Two Linked Lists | Easy | [Link](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Linked%20List/43-intersection-of-two-linked-lists.py?raw=true) | Jun 28, 2026 | You start from beg nodes and then we reset the pointer to opposite node of each when done and there by once they match we return the node |
+| 146 | LRU Cache | Medium | [Link](https://leetcode.com/problems/lru-cache/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Linked%20List/41-lru-cache.py?raw=true) | Jun 29, 2026 | Using a standard list causes all simple operations to be O(N) and searching is also O(n) we reduce this by using the dll and the easy hashmap which helps in searching and dll helps in removing the value in O(1) and here we append the value in front |
