@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 43/145 problems  
+**Solved:** 44/145 problems  
 **Last Updated:** Jun 29, 2026
 
 ## Solutions
@@ -52,3 +52,4 @@
 | 146 | LRU Cache | Medium | [Link](https://leetcode.com/problems/lru-cache/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Linked%20List/41-lru-cache.py?raw=true) | Jun 29, 2026 | Using a standard list causes all simple operations to be O(N) and searching is also O(n) we reduce this by using the dll and the easy hashmap which helps in searching and dll helps in removing the value in O(1) and here we append the value in front |
 | 0 | Implementation | Medium | - | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Linked%20List/33-implementation.py?raw=true) | Jun 29, 2026 | This represents using singly linked list approach |
 | 0 | Doubly Linked List | Medium | - | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Linked%20List/34-doubly-linked-list.py?raw=true) | Jun 29, 2026 | This represents doubly linked List |
+| 460 | LFU Cache | Hard | [Link](https://leetcode.com/problems/lfu-cache/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Linked%20List/44-lfu-cache.py?raw=true) | Jun 29, 2026 | Read this atleast 5 times to understand this |
