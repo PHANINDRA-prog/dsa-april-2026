@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 44/145 problems  
+**Solved:** 45/145 problems  
 **Last Updated:** Jun 29, 2026
 
 ## Solutions
@@ -53,3 +53,4 @@
 | 0 | Implementation | Medium | - | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Linked%20List/33-implementation.py?raw=true) | Jun 29, 2026 | This represents using singly linked list approach |
 | 0 | Doubly Linked List | Medium | - | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Linked%20List/34-doubly-linked-list.py?raw=true) | Jun 29, 2026 | This represents doubly linked List |
 | 460 | LFU Cache | Hard | [Link](https://leetcode.com/problems/lfu-cache/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Linked%20List/44-lfu-cache.py?raw=true) | Jun 29, 2026 | Read this atleast 5 times to understand this |
+| 1472 | Design Browser History | Medium | [Link](https://leetcode.com/problems/design-browser-history/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Linked%20List/45-design-browser-history.py?raw=true) | Jun 29, 2026 | So the point is to traverse quickly we do take dll and also for every visit node we are adding we are clearning the forward history and then adding our node that's the key rest for traversing keep a loop and decrement steps and do till untill steps > 0 . also one more thing you will always have head in browser history so you don't need to worry about that |
