@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 46/146 problems  
+**Solved:** 47/147 problems  
 **Last Updated:** Jun 30, 2026
 
 ## Solutions
@@ -55,3 +55,4 @@
 | 460 | LFU Cache | Hard | [Link](https://leetcode.com/problems/lfu-cache/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Linked%20List/44-lfu-cache.py?raw=true) | Jun 29, 2026 | Read this atleast 5 times to understand this |
 | 1472 | Design Browser History | Medium | [Link](https://leetcode.com/problems/design-browser-history/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Linked%20List/45-design-browser-history.py?raw=true) | Jun 29, 2026 | So the point is to traverse quickly we do take dll and also for every visit node we are adding we are clearning the forward history and then adding our node that's the key rest for traversing keep a loop and decrement steps and do till untill steps > 0 . also one more thing you will always have head in browser history so you don't need to worry about that |
 | 19 | Remove Nth Node From End of List | Medium | [Link](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Linked%20List/1782787085489-remove-nth-node-from-end-of-list.py?raw=true) | Jun 30, 2026 | Brute Force Way to solve this problem is to first reverse then go to the target node and just find the prev and move the connection, or we go to family 2 approach where we move fast and slow at equal speeds but intially fast moves n+1 steps due to dummy node and there by once fast ends slow is at the exact prev point and we do slow.next = slow.next.next and done |
+| 203 | Remove Linked List Elements | Easy | [Link](https://leetcode.com/problems/remove-linked-list-elements/description/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Linked%20List/1782787388134-remove-linked-list-elements.py?raw=true) | Jun 30, 2026 | Similar solution as to the removing duplicates have a dummy node and if matches our target move the curr pointer to the next next node and only move when the next nodes does not match our target ok |
