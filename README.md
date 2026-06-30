@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 48/148 problems  
+**Solved:** 49/149 problems  
 **Last Updated:** Jun 30, 2026
 
 ## Solutions
@@ -57,3 +57,4 @@
 | 19 | Remove Nth Node From End of List | Medium | [Link](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Linked%20List/1782787085489-remove-nth-node-from-end-of-list.py?raw=true) | Jun 30, 2026 | Brute Force Way to solve this problem is to first reverse then go to the target node and just find the prev and move the connection, or we go to family 2 approach where we move fast and slow at equal speeds but intially fast moves n+1 steps due to dummy node and there by once fast ends slow is at the exact prev point and we do slow.next = slow.next.next and done |
 | 203 | Remove Linked List Elements | Easy | [Link](https://leetcode.com/problems/remove-linked-list-elements/description/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Linked%20List/1782787388134-remove-linked-list-elements.py?raw=true) | Jun 30, 2026 | Similar solution as to the removing duplicates have a dummy node and if matches our target move the curr pointer to the next next node and only move when the next nodes does not match our target ok |
 | 237 | Delete Node in a Linked List | Medium | [Link](https://leetcode.com/problems/delete-node-in-a-linked-list/description/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Linked%20List/1782797391821-delete-node-in-a-linked-list.py?raw=true) | Jun 30, 2026 | The trick is in the current node store the next value data so that values will be shifted correct and there by the lastnode which points to none which is tail we maintain a prev pointer and once our curr reaches tail our prev is just behind so prev.next = None so that we have the correct linked list |
+| 234 | Palindrome Linked List | Medium | [Link](https://leetcode.com/problems/palindrome-linked-list/description/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Linked%20List/1782811585589-palindrome-linked-list.py?raw=true) | Jun 30, 2026 | The trick find the reverse , reverse the second half and then compare and then anything yeah now next thing is slow and fast pointers standard one if odd the fast will not be null correct and for even fast is None |
