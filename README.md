@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 50/149 problems  
+**Solved:** 51/149 problems  
 **Last Updated:** Jul 10, 2026
 
 ## Solutions
@@ -59,3 +59,4 @@
 | 237 | Delete Node in a Linked List | Medium | [Link](https://leetcode.com/problems/delete-node-in-a-linked-list/description/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Linked%20List/1782797391821-delete-node-in-a-linked-list.py?raw=true) | Jun 30, 2026 | The trick is in the current node store the next value data so that values will be shifted correct and there by the lastnode which points to none which is tail we maintain a prev pointer and once our curr reaches tail our prev is just behind so prev.next = None so that we have the correct linked list |
 | 234 | Palindrome Linked List | Medium | [Link](https://leetcode.com/problems/palindrome-linked-list/description/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Linked%20List/1782811585589-palindrome-linked-list.py?raw=true) | Jun 30, 2026 | The trick find the reverse , reverse the second half and then compare and then anything yeah now next thing is slow and fast pointers standard one if odd the fast will not be null correct and for even fast is None |
 | 51 | N-Queens | Hard | [Link](https://leetcode.com/problems/n-queens/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Recursion/53-n-queens.py?raw=true) | Jul 10, 2026 | The complete backtracking approach where we choose then move forward and then we unchoose and then return answers. The most toughest one |
+| 78 | Subsets | Medium | [Link](https://leetcode.com/problems/subsets/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Recursion/47-subsets.py?raw=true) | Jul 10, 2026 | Both Top Down and Bottom Up Approaches where in top down the leaf node has the answer so during the child calls we pass on the path and then during that point in base case we return [path] or [""] depends and then in this bottom up approach is where the child does no kind of work just return [[]] and empty kind of list of lists where parent now iterates upon this and then adds his answer based on the choices and then returns answers .  |
