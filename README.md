@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 52/149 problems  
+**Solved:** 53/149 problems  
 **Last Updated:** Jul 11, 2026
 
 ## Solutions
@@ -61,3 +61,4 @@
 | 51 | N-Queens | Hard | [Link](https://leetcode.com/problems/n-queens/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Recursion/53-n-queens.py?raw=true) | Jul 10, 2026 | The complete backtracking approach where we choose then move forward and then we unchoose and then return answers. The most toughest one |
 | 78 | Subsets | Medium | [Link](https://leetcode.com/problems/subsets/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Recursion/47-subsets.py?raw=true) | Jul 10, 2026 | Both Top Down and Bottom Up Approaches where in top down the leaf node has the answer so during the child calls we pass on the path and then during that point in base case we return [path] or [""] depends and then in this bottom up approach is where the child does no kind of work just return [[]] and empty kind of list of lists where parent now iterates upon this and then adds his answer based on the choices and then returns answers .  |
 | 0 | Subsets Sum No Duplicate Bags in Trolly | Medium | - | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Recursion/48-subsets-sum-no-duplicate-bags-in-trolly.py?raw=true) | Jul 11, 2026 | Both Bottom Up and Top Approaches are kept |
+| 494 | Target Sum | Medium | [Link](https://leetcode.com/problems/target-sum/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Recursion/49-target-sum.py?raw=true) | Jul 11, 2026 | Top Down Approach where once the curr sum reaches the target we return 1 or else return 0 and then we just add those and return them but tle comes up so we introuduce three lines where we create memo = {} and then we store the params as a tuple in the hashmap ok and the value we are returning as the value so key tuple and value is that plus + minus and there by calculate that and return it again found so that we save time and recursion calculation reducing the depth |
