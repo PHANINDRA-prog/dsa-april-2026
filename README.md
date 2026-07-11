@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 54/149 problems  
+**Solved:** 55/149 problems  
 **Last Updated:** Jul 11, 2026
 
 ## Solutions
@@ -63,3 +63,4 @@
 | 0 | Subsets Sum No Duplicate Bags in Trolly | Medium | - | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Recursion/48-subsets-sum-no-duplicate-bags-in-trolly.py?raw=true) | Jul 11, 2026 | Both Bottom Up and Top Approaches are kept |
 | 494 | Target Sum | Medium | [Link](https://leetcode.com/problems/target-sum/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Recursion/49-target-sum.py?raw=true) | Jul 11, 2026 | Top Down Approach where once the curr sum reaches the target we return 1 or else return 0 and then we just add those and return them but tle comes up so we introuduce three lines where we create memo = {} and then we store the params as a tuple in the hashmap ok and the value we are returning as the value so key tuple and value is that plus + minus and there by calculate that and return it again found so that we save time and recursion calculation reducing the depth |
 | 0 | Target Sum Only one answer Possible | Medium | - | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Recursion/50-target-sum-only-one-answer-possible.py?raw=true) | Jul 11, 2026 | Same thing instead of counting ways we wanna find if there exists a way if yes then just return true else false and see we just change to plus or minus or plus or minus |
+| 39 | Combination Sum - Infinite selection | Medium | [Link](https://leetcode.com/problems/combination-sum/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Recursion/51-combination-sum-infinite-selection.py?raw=true) | Jul 11, 2026 | Simple Pick and Not Pick case where while picking we keep the same index so it gets keep on being picked and not pick we don't pick that boy and say move forward and that's it once the sum reaches we collect paths and append that to the answer  |
