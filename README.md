@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 64/149 problems  
+**Solved:** 65/149 problems  
 **Last Updated:** Aug 7, 2026
 
 ## Solutions
@@ -72,3 +72,4 @@
 | 144 | Binary Tree Preorder Traversal | Easy | [Link](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Trees/62-binary-tree-preorder-traversal.py?raw=true) | Aug 7, 2026 | Classic preorder recursive traversal where u go print the node and then the left and then the right and time complexity imagining a worst case skewed tree then it's O(n) and then space complexity is also O(n) or O(h) in this case but in bfs this becomes O(w) the space in average cases where w is width and h is height  |
 | 450 | Delete Node in a BST | Medium | [Link](https://leetcode.com/problems/delete-node-in-a-bst/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Trees/63-delete-node-in-a-bst.py?raw=true) | Aug 7, 2026 | so the approach over here is we have to handle three cases one the there is no target we return none and then even if target there in the leaf node then return none and then there is one child so we are deleting the node so if no left return right and elsewise but two child is where find the successor by going to the right of the subtree and then from that right node go till the left most and then replace the node with that successor node and then finally delete that node with that successor node val and then we return the node |
 | 226 | Invert Binary Tree | Easy | [Link](https://leetcode.com/problems/invert-binary-tree/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Trees/64-invert-binary-tree.py?raw=true) | Aug 7, 2026 | Just interchanging pointers where node.left points to node.right and vice versa and the tough part is having one child then right empty then node.right = node.left and then node.left = None and then same viceversa |
+| 104 | Maximum Depth of Binary Tree | Easy | [Link](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Trees/65-maximum-depth-of-binary-tree.py?raw=true) | Aug 7, 2026 | Simple formula where the node info we need comes from children so we apply return up logic and then calculate height by adding our contribution and then tagging only max(left,right) so that we proceed with max height time complexity O(n) and space O(H) |
