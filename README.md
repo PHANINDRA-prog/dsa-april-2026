@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 66/149 problems  
+**Solved:** 67/149 problems  
 **Last Updated:** Aug 7, 2026
 
 ## Solutions
@@ -74,3 +74,4 @@
 | 226 | Invert Binary Tree | Easy | [Link](https://leetcode.com/problems/invert-binary-tree/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Trees/64-invert-binary-tree.py?raw=true) | Aug 7, 2026 | Just interchanging pointers where node.left points to node.right and vice versa and the tough part is having one child then right empty then node.right = node.left and then node.left = None and then same viceversa |
 | 104 | Maximum Depth of Binary Tree | Easy | [Link](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Trees/65-maximum-depth-of-binary-tree.py?raw=true) | Aug 7, 2026 | Simple formula where the node info we need comes from children so we apply return up logic and then calculate height by adding our contribution and then tagging only max(left,right) so that we proceed with max height time complexity O(n) and space O(H) |
 | 543 | Diameter of Binary Tree | Easy | [Link](https://leetcode.com/problems/diameter-of-binary-tree/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Trees/66-diameter-of-binary-tree.py?raw=true) | Aug 7, 2026 | Classic pattern 1 advanced approach where the problem stated clearly that the path can be between any two nodes and when it's not from root then we can't just have one param being returned need two one left_extend following the root path and one lying in side the subtree itself here my_extend same as height formula but through me would be passing through the subtree node so sum up and find the best and then return both and same time and space as the O(n) and O(h) |
+| 100 | Same Tree | Easy | [Link](https://leetcode.com/problems/same-tree/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Trees/67-same-tree.py?raw=true) | Aug 7, 2026 | So over here we compare the two nodes and what ever the give compare myself with the q and then we do left and right and current as we want the whole tree to match and then yeah suppose if both are not none then it's balanced and if not then false and return simple return up |
