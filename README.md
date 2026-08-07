@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 68/149 problems  
+**Solved:** 69/149 problems  
 **Last Updated:** Aug 7, 2026
 
 ## Solutions
@@ -76,3 +76,4 @@
 | 543 | Diameter of Binary Tree | Easy | [Link](https://leetcode.com/problems/diameter-of-binary-tree/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Trees/66-diameter-of-binary-tree.py?raw=true) | Aug 7, 2026 | Classic pattern 1 advanced approach where the problem stated clearly that the path can be between any two nodes and when it's not from root then we can't just have one param being returned need two one left_extend following the root path and one lying in side the subtree itself here my_extend same as height formula but through me would be passing through the subtree node so sum up and find the best and then return both and same time and space as the O(n) and O(h) |
 | 100 | Same Tree | Easy | [Link](https://leetcode.com/problems/same-tree/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Trees/67-same-tree.py?raw=true) | Aug 7, 2026 | So over here we compare the two nodes and what ever the give compare myself with the q and then we do left and right and current as we want the whole tree to match and then yeah suppose if both are not none then it's balanced and if not then false and return simple return up |
 | 572 | Subtree of Another Tree | Easy | [Link](https://leetcode.com/problems/subtree-of-another-tree/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Trees/68-subtree-of-another-tree.py?raw=true) | Aug 7, 2026 | Time complexity is O(n*m) because of the fact  that for each node we compare it with subroot saying that if you subtree where u are the root match so yes that's one and then finally now there might a edge case where all are equal then we have to think |
+| 235 | Lowest Common Ancestor of a Binary Search Tree | Medium | [Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Trees/69-lowest-common-ancestor-of-a-binary-search-tree.py?raw=true) | Aug 7, 2026 | Using the property of binary search tree where we go the left if both p and q are less than root.val and then we got if p and q are greater than node.val and then return root because once p is on the left or q on right viceversa we found the split |
