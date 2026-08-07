@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 61/149 problems  
+**Solved:** 62/149 problems  
 **Last Updated:** Aug 7, 2026
 
 ## Solutions
@@ -69,3 +69,4 @@
 | 70 | Climbing Stairs | Easy | [Link](https://leetcode.com/problems/climbing-stairs/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Recursion/56-climbing-stairs.py?raw=true) | Jul 26, 2026 | Easy top down where count we add choice 1 and choice 2 and then if curr _ sum == n we reached the target and then return 1 and if crosses sum return 0 |
 | 0 | BST IMP(DFS,BFS, Remove, Add) | Medium | - | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Trees/60-bst-imp-dfs-bfs-remove-add.py?raw=true) | Aug 7, 2026 | Proper BST Implementation where the only thing to remember go left and right like binary search but always after attaching return the node |
 | 102 | Binary Tree Level Order Traversal | Medium | [Link](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Trees/61-binary-tree-level-order-traversal.py?raw=true) | Aug 7, 2026 | The bfs traversal algo where instead of letting the queue pop we record the level size before we pop as we know that is the level size and we have those elements to be appended in the level . |
+| 144 | Binary Tree Preorder Traversal | Easy | [Link](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Trees/62-binary-tree-preorder-traversal.py?raw=true) | Aug 7, 2026 | Classic preorder recursive traversal where u go print the node and then the left and then the right |
