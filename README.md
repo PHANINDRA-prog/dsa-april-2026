@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 72/149 problems  
+**Solved:** 73/149 problems  
 **Last Updated:** Aug 8, 2026
 
 ## Solutions
@@ -80,3 +80,4 @@
 | 236 | Lowest Common Ancestor of a Binary Tree | Medium | [Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Trees/70-lowest-common-ancestor-of-a-binary-tree.py?raw=true) | Aug 7, 2026 | Here the simple approach is we bubble up the node and once both left and right have nodes that means the first node that receives both these information is the lca |
 | 103 | Binary Tree Zigzag Level Order Traversal | Medium | [Link](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Trees/71-binary-tree-zigzag-level-order-traversal.py?raw=true) | Aug 7, 2026 | Simple standard bfs algo but just have a switch of reverse = False first for the outside one and then yeah once u find that the switch is done it's job we switch to true so that the next one actually append in reverse exactly like zigzag |
 | 987 | Vertical Order Traversal of a Binary Tree | Hard | [Link](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Trees/73-vertical-order-traversal-of-a-binary-tree.py?raw=true) | Aug 8, 2026 | We have to go level by level because of the fact that for each level only we can specifiy the row and the col and make sure we add in a hashmap based out of col , and then later first sort on col and then on row |
+| 0 | Full Binary Tree using Array | Medium | - | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Trees/74-full-binary-tree-using-array.py?raw=true) | Aug 8, 2026 | Classic approach where we need to find the root of tree being the first elem in the prenode and then find the root index in inorder and then left is inorder left and right is inorder right from that index and then preorder is nothing but inorder left size pre order left index beg and then add and then remaining elements and then we recurse |
