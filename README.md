@@ -1,8 +1,8 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 74/149 problems  
-**Last Updated:** Aug 8, 2026
+**Solved:** 75/149 problems  
+**Last Updated:** Aug 9, 2026
 
 ## Solutions
 
@@ -82,3 +82,4 @@
 | 987 | Vertical Order Traversal of a Binary Tree | Hard | [Link](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Trees/73-vertical-order-traversal-of-a-binary-tree.py?raw=true) | Aug 8, 2026 | We have to go level by level because of the fact that for each level only we can specifiy the row and the col and make sure we add in a hashmap based out of col , and then later first sort on col and then on row |
 | 0 | Full Binary Tree using Array | Medium | - | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Trees/74-full-binary-tree-using-array.py?raw=true) | Aug 8, 2026 | Classic approach where we need to find the root of tree being the first elem in the prenode and then find the root index in inorder and then left is inorder left and right is inorder right from that index and then preorder is nothing but inorder left size pre order left index beg and then add and then remaining elements and then we recurse |
 | 297 | Serialize and Deserialize Binary Tree | Hard | [Link](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Trees/75-serialize-and-deserialize-binary-tree.py?raw=true) | Aug 8, 2026 | Trick is to even track null nodes as # as because serialize using a preorder and then once we have the string to desearlize same way u built up but catch because having None tracked it helps in forming the tree backup with that nodes returning and then forming it up or else u won't know what's the leaf node |
+| 0 | Top View of BTREE | Medium | - | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Trees/72-top-view-of-btree.py?raw=true) | Aug 9, 2026 | BFS Approach where we group the values based on the vertical columns and then have max and min and so that we can go linearly no need to sort and then append to answer |
