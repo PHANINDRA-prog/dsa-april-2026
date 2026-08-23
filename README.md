@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 85/149 problems  
+**Solved:** 86/149 problems  
 **Last Updated:** Aug 23, 2026
 
 ## Solutions
@@ -93,3 +93,4 @@
 | 240 | Search a 2D Matrix II | Medium | [Link](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Binary%20Search/142-search-a-2d-matrix-ii.py?raw=true) | Aug 23, 2026 | The approach is to start the pointer at the edge of the board as going down means increases and going to the left means decreasing so here we can apply binary search where we say that if row col < target that means in the row direction searching is of no use so we move our row + 1 and then if greater than target then searching in col is of no use so we discard that col col - 1  |
 | 62 | Unique Paths | Medium | [Link](https://leetcode.com/problems/unique-paths/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Recursion/57-unique-paths.py?raw=true) | Aug 23, 2026 | DFS Algo where u explore directions but when u hit target you return 1 and other wise return 0 and accumulate paths collected from that point and there by python dp will remember it  |
 | 22 | Generate Parentheses | Medium | [Link](https://leetcode.com/problems/generate-parentheses/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Recursion/58-generate-parentheses.py?raw=true) | Aug 23, 2026 | Use this pick and not pick approach where we wanna assign all open first as possible and then after that we assign the close one to make sure it's valid one |
+| 994 | Rotting Oranges | Medium | [Link](https://leetcode.com/problems/rotting-oranges/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Graphs/80-rotting-oranges.py?raw=true) | Aug 23, 2026 | Use bfs as each level by level u traverse we keep on increasing time and then we keep the track of fresh oranges on how less and then we keep appending the new coordinates  to the queue |
