@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 79/149 problems  
+**Solved:** 80/149 problems  
 **Last Updated:** Aug 23, 2026
 
 ## Solutions
@@ -87,3 +87,4 @@
 | 34 | Search Range | Medium | [Link](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Binary%20Search/136-search-range.py?raw=true) | Aug 23, 2026 | Use Bisect library and then find out the bisect left which is >= target and then bisect right is > target so if target is there we need to subtract bisect right index by - 1 and then we need to return [idx_left,idx_right] |
 | 33 | Search in Rotated Sorted Array | Medium | [Link](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Binary%20Search/137-search-in-rotated-sorted-array.py?raw=true) | Aug 23, 2026 | Use the knowledge that one half is always sorted find the sorted half and and then find the element if found discard that search space of other half , and there by binary search is being applied |
 | 875 | Koko Eating Bananas | Medium | [Link](https://leetcode.com/problems/koko-eating-bananas/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Binary%20Search/138-koko-eating-bananas.py?raw=true) | Aug 23, 2026 | We have to do binary search on answer because of if given a speed koko can eat bannas less than the working speed she can never complete in time but after a certain speed she can definetly complete in time and yeah the binary search on answer we are applying the minimum search so yes once found valid we had to look left to find a even more smaller one |
+| 69 | Sqrt(x) | Easy | [Link](https://leetcode.com/problems/sqrtx/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Binary%20Search/139-sqrt-x.py?raw=true) | Aug 23, 2026 | Implement binary search over the search space of 1 and x // 2 and then our goal is to find the maximum guy satisfying mid * mid so low = mid + 1 and high = mid - 1 |
