@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 81/149 problems  
+**Solved:** 82/149 problems  
 **Last Updated:** Aug 23, 2026
 
 ## Solutions
@@ -89,3 +89,4 @@
 | 875 | Koko Eating Bananas | Medium | [Link](https://leetcode.com/problems/koko-eating-bananas/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Binary%20Search/138-koko-eating-bananas.py?raw=true) | Aug 23, 2026 | We have to do binary search on answer because of if given a speed koko can eat bannas less than the working speed she can never complete in time but after a certain speed she can definetly complete in time and yeah the binary search on answer we are applying the minimum search so yes once found valid we had to look left to find a even more smaller one |
 | 69 | Sqrt(x) | Easy | [Link](https://leetcode.com/problems/sqrtx/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Binary%20Search/139-sqrt-x.py?raw=true) | Aug 23, 2026 | Implement binary search over the search space of 1 and x // 2 and then our goal is to find the maximum guy satisfying mid * mid so low = mid + 1 and high = mid - 1 |
 | 1011 | Capacity To Ship Packages Within D Days | Medium | [Link](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Binary%20Search/140-capacity-to-ship-packages-within-d-days.py?raw=true) | Aug 23, 2026 | The key to this approach of clubbing is we assume there is a capacity and then we see how many we can fit in the current capacity if not we move onto next day starting with the capacity it failed |
+| 74 | Search a 2D Matrix | Medium | [Link](https://leetcode.com/problems/search-a-2d-matrix/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Binary%20Search/141-search-a-2d-matrix.py?raw=true) | Aug 23, 2026 | Approach is that we put out search space on indexes and then we convert that 1 d index to 2d and then search whether the value matches the target if not then we move depending on the binary search algo |
