@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 87/149 problems  
+**Solved:** 88/149 problems  
 **Last Updated:** Aug 23, 2026
 
 ## Solutions
@@ -95,3 +95,4 @@
 | 22 | Generate Parentheses | Medium | [Link](https://leetcode.com/problems/generate-parentheses/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Recursion/58-generate-parentheses.py?raw=true) | Aug 23, 2026 | Use this pick and not pick approach where we wanna assign all open first as possible and then after that we assign the close one to make sure it's valid one |
 | 994 | Rotting Oranges | Medium | [Link](https://leetcode.com/problems/rotting-oranges/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Graphs/80-rotting-oranges.py?raw=true) | Aug 23, 2026 | Use bfs as each level by level u traverse we keep on increasing time and then we keep the track of fresh oranges on how less and then we keep appending the new coordinates  to the queue |
 | 200 | Number of Islands | Medium | [Link](https://leetcode.com/problems/number-of-islands/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Graphs/81-number-of-islands.py?raw=true) | Aug 23, 2026 | Simple dfs kind of solution where we start from 1 and then keep going and making them in all the connected directions of the originating 1 zero and then we move to the next one which could not be made zero there by counting them as individual islands |
+| 733 | Flood Fill | Easy | [Link](https://leetcode.com/problems/flood-fill/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Graphs/82-flood-fill.py?raw=true) | Aug 23, 2026 | Just apply dfs template and then when u keep exploring new direction make sure we are visiting those which are part of the original color and then image[r][c] = color the new one |
