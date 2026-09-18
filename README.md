@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 92/149 problems  
+**Solved:** 96/149 problems  
 **Last Updated:** Sep 18, 2026
 
 ## Solutions
@@ -100,3 +100,4 @@
 | 860 | Lemonade Change | Easy | [Link](https://leetcode.com/problems/lemonade-change/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Greedy/134-lemonade-change.py?raw=true) | Sep 18, 2026 | Just a simple greedy approach where for the bill is 20 first pay with higher notes of having 10 to save 5's and suppose we don't have 10 and only 5 check if greater than 3 count then automatically we can satisfy the customer |
 | 0 | KnapSack Fractional | Medium | - | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Greedy/133-knapsack-fractional.py?raw=true) | Sep 18, 2026 | The greedy choice over here is that we want to check the ratio on the maximum amount we can get and see so that based on that when we are filling out bag we are getting good ratio for it |
 | 0 | N Meeting room | Medium | [Link](https://leetcode.com/problems/meeting-rooms-ii/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Greedy/135-n-meeting-room.py?raw=true) | Sep 18, 2026 | Using Heap over here because we check the earliest ending room ok this is the greedy over here we check the earliest ending room and then see where is end time is lower than the start time of ours that mean we can occupy that room so we pop that meeting and then place ourselves  |
+| 133 | Clone Graph | Medium | [Link](https://leetcode.com/problems/clone-graph/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Graphs/79-clone-graph.py?raw=true) | Sep 18, 2026 | Maintain a hashmap and then map the curr node to created clone node since graph will have cycles anytime we see a cycle we return that clone node |
