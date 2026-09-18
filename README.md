@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 106/149 problems  
+**Solved:** 108/149 problems  
 **Last Updated:** Sep 18, 2026
 
 ## Solutions
@@ -106,3 +106,4 @@
 | 743 | Network Delay Time | Medium | [Link](https://leetcode.com/problems/network-delay-time/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Graphs/89-network-delay-time.py?raw=true) | Sep 18, 2026 | Simply apply dijsktra algo but remember to reduce 1 while constructing the graph to handle the algo which supports distance from 0 based indexing |
 | 787 | Cheapest Flights Within K Stops | Medium | [Link](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Graphs/91-cheapest-flights-within-k-stops.py?raw=true) | Sep 18, 2026 | Here we have apply normal bfs based queue with continous relaxation and then once we reach stops that match then return the final dist , dijsktra won't be applicable because of the fact that it only gives shortest distance weight but not considering stops |
 | 1462 | Course Schedule IV | Medium | [Link](https://leetcode.com/problems/course-schedule-iv/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Graphs/95-course-schedule-iv.py?raw=true) | Sep 18, 2026 | same topo khan but maintain a prerequiste of that nei and then simple when discovering nei in prereq of that nei is the node we just came through and then all that node has prerequiste will be added to our nei also |
+| 1334 | Find the City With the Smallest Number of Neighbors at a Threshold Distance - Floyd Warshall Algorithm | Medium | [Link](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Graphs/97-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance-floyd-warshall-algorithm.py?raw=true) | Sep 18, 2026 | Direct Construction of floyd algo |
