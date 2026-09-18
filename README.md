@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 110/149 problems  
+**Solved:** 111/149 problems  
 **Last Updated:** Sep 18, 2026
 
 ## Solutions
@@ -108,3 +108,4 @@
 | 1462 | Course Schedule IV | Medium | [Link](https://leetcode.com/problems/course-schedule-iv/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Graphs/95-course-schedule-iv.py?raw=true) | Sep 18, 2026 | same topo khan but maintain a prerequiste of that nei and then simple when discovering nei in prereq of that nei is the node we just came through and then all that node has prerequiste will be added to our nei also |
 | 1334 | Find the City With the Smallest Number of Neighbors at a Threshold Distance - Floyd Warshall Algorithm | Medium | [Link](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Graphs/97-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance-floyd-warshall-algorithm.py?raw=true) | Sep 18, 2026 | Direct Construction of floyd algo |
 | 1091 | Shortest Path in Binary Matrix | Medium | [Link](https://leetcode.com/problems/shortest-path-in-binary-matrix/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Graphs/100-shortest-path-in-binary-matrix.py?raw=true) | Sep 18, 2026 | Just bfs with level as we know when we need shortest then we do level by level and naturally bfs algo reaches the node exactly at the shortest distance so reach target return the distance but only apply when same weights |
+| 1584 | Min Cost to Connect All Points | Medium | [Link](https://leetcode.com/problems/min-cost-to-connect-all-points/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Graphs/99-min-cost-to-connect-all-points.py?raw=true) | Sep 18, 2026 | Prim is more suited as we are not given u,v,w so for krushkal we have to construct that and there by O(n2) will be intially so better use prim |
