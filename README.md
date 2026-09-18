@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 90/149 problems  
+**Solved:** 91/149 problems  
 **Last Updated:** Sep 18, 2026
 
 ## Solutions
@@ -98,3 +98,4 @@
 | 74 | Search a 2D Matrix | Medium | [Link](https://leetcode.com/problems/search-a-2d-matrix/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Binary%20Search/141-search-a-2d-matrix.py?raw=true) | Aug 23, 2026 | Approach is that we put out search space on indexes and then we convert that 1 d index to 2d and then search whether the value matches the target if not then we move depending on the binary search algo |
 | 240 | Search a 2D Matrix II | Medium | [Link](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Binary%20Search/142-search-a-2d-matrix-ii.py?raw=true) | Aug 23, 2026 | The approach is to start the pointer at the edge of the board as going down means increases and going to the left means decreasing so here we can apply binary search where we say that if row col < target that means in the row direction searching is of no use so we move our row + 1 and then if greater than target then searching in col is of no use so we discard that col col - 1 |
 | 860 | Lemonade Change | Easy | [Link](https://leetcode.com/problems/lemonade-change/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Greedy/134-lemonade-change.py?raw=true) | Sep 18, 2026 | Just a simple greedy approach where for the bill is 20 first pay with higher notes of having 10 to save 5's and suppose we don't have 10 and only 5 check if greater than 3 count then automatically we can satisfy the customer |
+| 0 | KnapSack Fractional | Medium | - | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Greedy/133-knapsack-fractional.py?raw=true) | Sep 18, 2026 | The greedy choice over here is that we want to check the ratio on the maximum amount we can get and see so that based on that when we are filling out bag we are getting good ratio for it |
