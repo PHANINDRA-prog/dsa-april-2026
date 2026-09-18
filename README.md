@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 111/149 problems  
+**Solved:** 112/149 problems  
 **Last Updated:** Sep 18, 2026
 
 ## Solutions
@@ -109,3 +109,4 @@
 | 1334 | Find the City With the Smallest Number of Neighbors at a Threshold Distance - Floyd Warshall Algorithm | Medium | [Link](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Graphs/97-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance-floyd-warshall-algorithm.py?raw=true) | Sep 18, 2026 | Direct Construction of floyd algo |
 | 1091 | Shortest Path in Binary Matrix | Medium | [Link](https://leetcode.com/problems/shortest-path-in-binary-matrix/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Graphs/100-shortest-path-in-binary-matrix.py?raw=true) | Sep 18, 2026 | Just bfs with level as we know when we need shortest then we do level by level and naturally bfs algo reaches the node exactly at the shortest distance so reach target return the distance but only apply when same weights |
 | 1584 | Min Cost to Connect All Points | Medium | [Link](https://leetcode.com/problems/min-cost-to-connect-all-points/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Graphs/99-min-cost-to-connect-all-points.py?raw=true) | Sep 18, 2026 | Prim is more suited as we are not given u,v,w so for krushkal we have to construct that and there by O(n2) will be intially so better use prim |
+| 329 | Longest Increasing Path in a Matrix | Hard | [Link](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Graphs/86-longest-increasing-path-in-a-matrix.py?raw=true) | Sep 18, 2026 | Simple exploration where the nature of the problem given only states that why so that the size of the next cell i visited must be strictly greater it cannot be equal or else there will be a loop and simple max path tree analogy where all the childs give their best paths i take the best one and then simply do the 1 + best if it was diameter i need second best |
