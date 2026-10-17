@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 128/149 problems  
+**Solved:** 129/149 problems  
 **Last Updated:** Oct 17, 2026
 
 ## Solutions
@@ -118,3 +118,4 @@
 | 64 | Minimum Path Sum | Medium | [Link](https://leetcode.com/problems/minimum-path-sum/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Dynamic%20Programming/118-minimum-path-sum.py?raw=true) | Oct 17, 2026 | The grid direction we are checking and seeing all the children and then based on that we are checking all the min and then adding the grid value and return that  |
 | 322 | Coin Change | Medium | [Link](https://leetcode.com/problems/coin-change/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Dynamic%20Programming/120-coin-change.py?raw=true) | Oct 17, 2026 | Unbounded Knapsack where you can picking the same guy  |
 | 121 | Best Time to Buy and Sell Stock | Easy | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Dynamic%20Programming/121-best-time-to-buy-and-sell-stock.py?raw=true) | Oct 17, 2026 | The greedy of seeing what's the best min and the best max and then seeing that one transaction we are doing so greedy applies |
+| 122 | Best Time to Buy and Sell Stock II | Medium | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Dynamic%20Programming/122-best-time-to-buy-and-sell-stock-ii.py?raw=true) | Oct 17, 2026 | There are two states one state is when you hold the stock you can either rest or buy and then if you are not holding the rest will be there but yeah then you can only sell and out of these two states you have to take maximum of these both possible states |
