@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 124/149 problems  
+**Solved:** 125/149 problems  
 **Last Updated:** Oct 17, 2026
 
 ## Solutions
@@ -115,3 +115,4 @@
 | 494 | Target Sum Trolly | Medium | [Link](https://leetcode.com/problems/target-sum/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Dynamic%20Programming/111-target-sum-trolly.py?raw=true) | Sep 19, 2026 | Same as the above problem |
 | 198 | House Robber | Medium | [Link](https://leetcode.com/problems/house-robber/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Dynamic%20Programming/116-house-robber.py?raw=true) | Oct 17, 2026 | Classic Pick and not Pick where when you pick you have to go to i + 2  |
 | 213 | House Robber II | Medium | [Link](https://leetcode.com/problems/house-robber-ii/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Dynamic%20Programming/117-house-robber-ii.py?raw=true) | Oct 17, 2026 | The pick and notPick Case where in pick we are maintaining the first part where the truthy is not there so , if first index picked is not True that means that we can pick last guy as of circular for the rest of middle elements we don't need to care about this |
+| 64 | Minimum Path Sum | Medium | [Link](https://leetcode.com/problems/minimum-path-sum/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Dynamic%20Programming/118-minimum-path-sum.py?raw=true) | Oct 17, 2026 | The grid direction we are checking and seeing all the children and then based on that we are checking all the min and then adding the grid value and return that  |
