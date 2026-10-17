@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 130/149 problems  
+**Solved:** 131/149 problems  
 **Last Updated:** Oct 17, 2026
 
 ## Solutions
@@ -120,3 +120,4 @@
 | 121 | Best Time to Buy and Sell Stock | Easy | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Dynamic%20Programming/121-best-time-to-buy-and-sell-stock.py?raw=true) | Oct 17, 2026 | The greedy of seeing what's the best min and the best max and then seeing that one transaction we are doing so greedy applies |
 | 122 | Best Time to Buy and Sell Stock II | Medium | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Dynamic%20Programming/122-best-time-to-buy-and-sell-stock-ii.py?raw=true) | Oct 17, 2026 | There are two states one state is when you hold the stock you can either rest or buy and then if you are not holding the rest will be there but yeah then you can only sell and out of these two states you have to take maximum of these both possible states |
 | 123 | Best Time to Buy and Sell Stock III | Hard | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Dynamic%20Programming/123-best-time-to-buy-and-sell-stock-iii.py?raw=true) | Oct 17, 2026 | The picking and non picking case but when you hold a stock and sell all the constraints will be limiting the cap  |
+| 188 | Best Time to Buy and Sell Stock IV | Hard | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Dynamic%20Programming/124-best-time-to-buy-and-sell-stock-iv.py?raw=true) | Oct 17, 2026 | The stock same thing where we see the states and decide on what decision to make and what decision not to make and having a cap of k that's it  |
