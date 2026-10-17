@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 127/149 problems  
+**Solved:** 128/149 problems  
 **Last Updated:** Oct 17, 2026
 
 ## Solutions
@@ -117,3 +117,4 @@
 | 213 | House Robber II | Medium | [Link](https://leetcode.com/problems/house-robber-ii/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Dynamic%20Programming/117-house-robber-ii.py?raw=true) | Oct 17, 2026 | The pick and notPick Case where in pick we are maintaining the first part where the truthy is not there so , if first index picked is not True that means that we can pick last guy as of circular for the rest of middle elements we don't need to care about this |
 | 64 | Minimum Path Sum | Medium | [Link](https://leetcode.com/problems/minimum-path-sum/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Dynamic%20Programming/118-minimum-path-sum.py?raw=true) | Oct 17, 2026 | The grid direction we are checking and seeing all the children and then based on that we are checking all the min and then adding the grid value and return that  |
 | 322 | Coin Change | Medium | [Link](https://leetcode.com/problems/coin-change/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Dynamic%20Programming/120-coin-change.py?raw=true) | Oct 17, 2026 | Unbounded Knapsack where you can picking the same guy  |
+| 121 | Best Time to Buy and Sell Stock | Easy | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Dynamic%20Programming/121-best-time-to-buy-and-sell-stock.py?raw=true) | Oct 17, 2026 | The greedy of seeing what's the best min and the best max and then seeing that one transaction we are doing so greedy applies |
