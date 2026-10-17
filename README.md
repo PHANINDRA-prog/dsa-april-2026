@@ -1,8 +1,8 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 117/149 problems  
-**Last Updated:** Sep 19, 2026
+**Solved:** 123/149 problems  
+**Last Updated:** Oct 17, 2026
 
 ## Solutions
 
@@ -113,3 +113,4 @@
 | 63 | Unique Paths II | Medium | [Link](https://leetcode.com/problems/unique-paths-ii/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Dynamic%20Programming/109-unique-paths-ii.py?raw=true) | Sep 19, 2026 | Just regular dfs code and then explore and then see how many paths you can achieve and no need to backtrack or anything |
 | 0 | Target Sum Count | Medium | - | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Dynamic%20Programming/110-target-sum-count.py?raw=true) | Sep 19, 2026 | Normal Recursive Way memo of plus and minus as at each step we can take either plus or minus |
 | 494 | Target Sum Trolly | Medium | [Link](https://leetcode.com/problems/target-sum/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Dynamic%20Programming/111-target-sum-trolly.py?raw=true) | Sep 19, 2026 | Same as the above problem |
+| 198 | House Robber | Medium | [Link](https://leetcode.com/problems/house-robber/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Dynamic%20Programming/116-house-robber.py?raw=true) | Oct 17, 2026 | Classic Pick and not Pick where when you pick you have to go to i + 2  |
