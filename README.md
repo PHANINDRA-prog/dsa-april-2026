@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 127/149 problems  
+**Solved:** 128/149 problems  
 **Last Updated:** Oct 21, 2026
 
 ## Solutions
@@ -117,3 +117,4 @@
 | 213 | House Robber II | Medium | [Link](https://leetcode.com/problems/house-robber-ii/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Dynamic%20Programming/117-house-robber-ii.py?raw=true) | Oct 21, 2026 | Again pick and not Pick but here the case is circle so if the first guy got picked the last guy cannot be picked so yeah need extra param for this info |
 | 64 | Minimum Path Sum | Medium | [Link](https://leetcode.com/problems/minimum-path-sum/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Dynamic%20Programming/118-minimum-path-sum.py?raw=true) | Oct 21, 2026 | All possible children paths explore and then you know calculate thier best and then add the min best to this one and progress if forward |
 | 322 | Coin Change | Medium | [Link](https://leetcode.com/problems/coin-change/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Dynamic%20Programming/120-coin-change.py?raw=true) | Oct 21, 2026 | Unlimited choices where you can pick the same finite quantity again and again |
+| 121 | Best Time to Buy and Sell Stock | Easy | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Dynamic%20Programming/121-best-time-to-buy-and-sell-stock.py?raw=true) | Oct 21, 2026 | The best time to buy and sell the stock which is the more effienct way is to see the minimum kind of stock and then see the maximum stock |
