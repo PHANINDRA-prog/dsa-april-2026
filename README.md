@@ -1,7 +1,7 @@
 # DSA Problems Solutions
 
 ## Progress
-**Solved:** 129/149 problems  
+**Solved:** 130/149 problems  
 **Last Updated:** Oct 21, 2026
 
 ## Solutions
@@ -119,3 +119,4 @@
 | 322 | Coin Change | Medium | [Link](https://leetcode.com/problems/coin-change/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Dynamic%20Programming/120-coin-change.py?raw=true) | Oct 21, 2026 | Unlimited choices where you can pick the same finite quantity again and again |
 | 121 | Best Time to Buy and Sell Stock | Easy | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Dynamic%20Programming/121-best-time-to-buy-and-sell-stock.py?raw=true) | Oct 21, 2026 | The best time to buy and sell the stock which is the more effienct way is to see the minimum kind of stock and then see the maximum stock |
 | 122 | Best Time to Buy and Sell Stock II | Medium | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Dynamic%20Programming/122-best-time-to-buy-and-sell-stock-ii.py?raw=true) | Oct 21, 2026 | If you are not holding anything then you have to buy on day 0 and then if you are holding then it's holding 1 then you can sell and all this exploration on possibilities and the transactions are hit with the boundary with you know a complete sell transaction we record on that point so yeah |
+| 123 | Best Time to Buy and Sell Stock III | Hard | [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | [Code](https://raw.githubusercontent.com/PHANINDRA-prog/dsa-april-2026/main/solutions/Dynamic%20Programming/123-best-time-to-buy-and-sell-stock-iii.py?raw=true) | Oct 21, 2026 | Same holding and non holding where you hold you are bounded by rest and buy and not holding you are bounded by rest and sell and yes we take maximum of these states and return back so yeah the rest part makes sure we are either not buying or selling exploring all the possibilites so yeah and if there is a cap there is another param that you need to take care of but only it's value changes in the else block as it represnets a sell |
